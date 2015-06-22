@@ -71,8 +71,8 @@ public class XLStoCSV {
 	}
 
 	public static void main(String[] args) throws IOException {
-		File inputFile = new File("C:/Users/754098/Documents/TCS_GE_Confidential/test.xls");
-		File outputFile = new File("C:/Users/754098/Documents/TCS_GE_Confidential/test.csv");
+		File inputFile = new File("C:/Users/test.xls");
+		File outputFile = new File("C:/Users/test.csv");
 		xls(inputFile, outputFile);
 	}
 }
